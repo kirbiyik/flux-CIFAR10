@@ -22,7 +22,7 @@ train = (trainX, trainY)
 
 
 # TODO convert below to list comprehension
-
+# TODO shuffle
 # split training set into batches
 # train_data contains whole data in batches
 train_data = Array{Any}(div(50000, BATCH_SIZE))
